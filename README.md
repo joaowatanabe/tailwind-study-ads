@@ -1,4 +1,4 @@
-# Página de Barbearia Fictícia
+# Página "Barbearia Avenida"
 
 Este projeto é uma página web simples para uma barbearia fictícia, criada como prática para o uso de HTML semântico e estilização com Tailwind CSS. A intenção é estudar estruturas HTML corretas, acessibilidade e classes utilitárias do Tailwind para criar um layout moderno e responsivo.
 
