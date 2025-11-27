@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kedebideri:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Barbearia Avenida - Contato</title>
+  </head>
+  <body class="bg-black text-white font-['Kedebideri']">
+    <header class="flex justify-between items-center p-8 max-w-7xl m-auto">
+      <img
+        src="../assets/img/Captura de tela 2023-10-26 170031.png"
+        alt="Barbearia Avenida Logo"
+        class="w-[14%]"
+      />
+      <nav>
+        <ul class="flex gap-8 font-['Kedebideri']">
+          <li>
+            <a href="./index.html" class="uppercase tracking-[.5em]">home</a>
+          </li>
+          <li>
+            <a href="./servicos.html" class="uppercase tracking-[.5em]"
+              >serviços</a
+            >
+          </li>
+          <li>
+            <a href="./contato.html" class="uppercase tracking-[.5em]"
+              >contato</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="max-w-7xl m-auto">
+      <section class="flex justify-center gap-80 items-center pt-12 pb-12">
+        <div class="max-w-[250px]">
+          <form class="flex flex-col gap-2">
+            <label for="nome">Nome Completo</label>
+            <input
+              class="bg-white text-black p-2"
+              type="text"
+              name="nome"
+              id="nome"
+              placeholder="Digite seu nome completo"
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              class="bg-white text-black p-2"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu email"
+              required
+            />
+            <label for="telefone">Telefone</label>
+            <input
+              class="bg-white text-black p-2"
+              type="text"
+              name="telefone"
+              id="telefone"
+              placeholder="(xx)xxxxx-xxxx"
+              required
+            />
+            <label for="horarios">Qual horário prefere ser atendido?</label>
+            <select
+              class="bg-white text-black p-1.5"
+              title="Horarios"
+              name="horarios"
+              id="horarios"
+              required
+            >
+              <option value="manha">Manhã</option>
+              <option value="tarde">Tarde</option>
+              <option value="noite">Noite</option>
+            </select>
+            <button
+              class="mt-2 p-2 bg-amber-500 font-bold tracking-wider"
+              type="submit"
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+        <div>
+          <table
+            class="border border-amber-500 text-white text-center"
+            role="table"
+            aria-label="Horários de atendimento"
+          >
+            <caption class="sr-only">
+              Horários de atendimento da Barbearia Avenida
+            </caption>
+            <thead>
+              <tr>
+                <th
+                  scope="col"
+                  class="border border-amber-500 px-11 py-3 font-semibold text-center"
+                >
+                  Dia
+                </th>
+                <th
+                  scope="col"
+                  class="border border-amber-500 px-8 py-3 font-semibold text-center"
+                >
+                  Horário
+                </th>
+              </tr>
+            </thead>
+            <tbody class="">
+              <tr>
+                <th scope="row" class="border border-amber-500 px-8 py-3">
+                  Segunda
+                </th>
+                <td class="border border-amber-500 px-8 py-3">08h - 20h</td>
+              </tr>
+              <tr>
+                <th scope="row" class="border border-amber-500 px-8 py-3">
+                  Quarta
+                </th>
+                <td class="border border-amber-500 px-8 py-3">08h - 20h</td>
+              </tr>
+              <tr>
+                <th scope="row" class="border border-amber-500 px-8 py-3">
+                  Sexta
+                </th>
+                <td class="border border-amber-500 px-8 py-3">08h - 20h</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="flex flex-col items-center justify-center gap-3 pt-24 pb-12 max-w-7xl m-auto"
+    >
+      <img
+        src="../assets/img/Captura de tela 2023-10-26 170031.png"
+        alt=""
+        class="w-[12%]"
+      />
+      <p class="uppercase">© Barbearia Avenida - 2025</p>
+    </footer>
+  </body>
+</html>
