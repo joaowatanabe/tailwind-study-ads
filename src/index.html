@@ -4,25 +4,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./css/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kedebideri:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Barbearia Avenida</title>
   </head>
-  <body class="bg-black text-white">
-    <header class="flex justify-between items-center p-8">
+  <body class="bg-black text-white font-['Kedebideri']">
+    <header class="flex justify-between items-center p-8 max-w-7xl m-auto">
       <img
         src="../assets/img/Captura de tela 2023-10-26 170031.png"
         alt="Barbearia Avenida Logo"
         class="w-[14%]"
       />
       <nav>
-        <ul class="flex gap-8">
+        <ul class="flex gap-8 font-['Kedebideri']">
           <li>
-            <a href="#" class="uppercase tracking-[.5em]">home</a>
+            <a href="./index.html" class="uppercase tracking-[.5em]">home</a>
           </li>
           <li>
-            <a href="#" class="uppercase tracking-[.5em]">serviços</a>
+            <a href="./servicos.html" class="uppercase tracking-[.5em]"
+              >serviços</a
+            >
           </li>
           <li>
-            <a href="#" class="uppercase tracking-[.5em]">contato</a>
+            <a href="./contato.html" class="uppercase tracking-[.5em]"
+              >contato</a
+            >
           </li>
         </ul>
       </nav>
@@ -31,53 +41,61 @@
       <section
         class="h-[60vh] bg-[url(/assets/img/banner2.jpg)] bg-cover bg-center"
       ></section>
-      <section class="flex flex-col p-12 items-center justify-center gap-2">
-        <div>
-          <h2>Sobre a Barbearia Avenida</h2>
+      <section
+        class="flex flex-col p-12 items-center justify-center gap-14 max-w-7xl m-auto"
+      >
+        <div class="flex justify-center text-center p-6">
+          <h2 class="text-4xl font-semibold font-['Kedebideri']">
+            Sobre a Barbearia Avenida
+          </h2>
         </div>
-        <div class="flex items-center justify-between gap-8 m-auto">
+        <div class="flex items-center justify-between gap-16">
           <img
             src="../assets/img/pexels-pavel-danilyuk-7518973.jpg"
             alt="coisas de barbearia"
-            class="w-[10%]"
+            class="w-[15%]"
           />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At
-            consequatur sed ea. Aut fugit nesciunt, dignissimos sint inventore
-            laboriosam, magni laborum cum mollitia tenetur natus! Quis aliquam
-            laboriosam molestiae maiores. Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Delectus, laborum tenetur! 
-            Nossa missão é: "Proporcionar auto-estima e qualidade de vida aos
-            clientes". Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Voluptatibus, aut corrupti. Obcaecati eligendi, optio dolores
-            temporibus nisi laudantium voluptatum nam sit tempore quibusdam!
+          <p class="text-2xl border-b-4 pb-6">
+            Na Barbearia Avenida, tradição e estilo andam lado a lado.
+            Oferecemos cortes clássicos e modernos, barbas e atendimento
+            personalizado em um ambiente acolhedor e descontraído. Valorizamos a
+            qualidade, o respeito pelo cliente e o cuidado nos detalhes —
+            <span class="font-semibold">sua melhor versão começa aqui.</span>
           </p>
         </div>
       </section>
-      <section>
-        <div>
-          <h2>Beneficios</h2>
+      <section
+        class="flex flex-col justify-between max-w-7xl m-auto items-center gap-6"
+      >
+        <div class="flex justify-center m-auto pt-12 pb-6">
+          <h2 class="text-4xl">Benefícios</h2>
         </div>
-        <div>
-          <ul>
-            <li>Atendimento aos clientes</li>
-            <li>Espaço diferenciado</li>
-            <li>Localização</li>
-            <li>Profissionais</li>
-            <li>Pontualidade</li>
-            <li>Limpeza</li>
-          </ul>
+        <div class="flex justify-center items-center max-w-7xl m-auto gap-12">
+          <div>
+            <ul class="list-disc">
+              <li>Atendimento aos clientes</li>
+              <li>Espaço diferenciado</li>
+              <li>Localização</li>
+              <li>Profissionais</li>
+              <li>Pontualidade</li>
+              <li>Limpeza</li>
+            </ul>
+          </div>
+          <img
+            class="w-[20%]"
+            src="../assets/img/pexels-thgusstavo-santana-2061820.jpg"
+            alt="Cortando cabelo"
+          />
         </div>
-        <img src="" alt="Cortando cabelo" />
       </section>
     </main>
-    <footer class="flex flex-col items-center justify-center gap-3 p-12">
+    <footer class="flex flex-col items-center justify-center gap-3 pt-24 pb-12 max-w-7xl m-auto">
       <img
         src="../assets/img/Captura de tela 2023-10-26 170031.png"
         alt=""
         class="w-[12%]"
       />
-      <p>© Barbearia Avenida - 2023</p>
+      <p class="uppercase">© Barbearia Avenida - 2025</p>
     </footer>
   </body>
 </html>
